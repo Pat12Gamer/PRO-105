@@ -1,7 +1,5 @@
 import math
 import csv
-import pandas as pd
-import plotly_express as px
 
 with open('data.csv', newline='') as f:
     reader = csv.reader(f)
@@ -32,6 +30,3 @@ r = sum/(len(data)-1)
 
 a = math.sqrt(r)
 print(a)
-
-df = pd.read_csv("data.csv")
-figure = 
